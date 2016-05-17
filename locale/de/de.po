@@ -1,126 +1,66 @@
-# Lines starting with hashtags are ignored by the reader
-# Setting file format: (key)=(value)
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Invalid values will be reset to default
-#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-17 13:30+0200\n"
+"PO-Revision-Date: 2016-05-17 17:31+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
 
-# address - The address the server listens on.
-# # WARNING: You do not need to change this unless you are running 2 servers on the same port.
-# # Changing this setting from 0.0.0.0 will only give you trouble if you aren't running multiple servers.
-# # Change this setting to :: to listen on IPv4 and IPv6.
-address=::
+#: extension.js:183
+#, javascript-format
+msgid "Group of %d application"
+msgid_plural "Group of %d applications"
+msgstr[0] "Gruppe von %d Anwendung"
+msgstr[1] "Gruppe von %d Anwendungen"
 
-# port - The port the server listens on.
-port=6702
+#: prefs.xml:27
+msgid "<b>Timings</b>"
+msgstr "<b>Anzeigedauer</b>"
 
-# warpMode - Specify the warp type.
-#
-# Valid values are:
-#   MCW_FORCE
-#   MCW_VOTE
-#   MCW_LOWEST
-#   SUBSPACE_SIMPLE
-#   SUBSPACE
-#   NONE
-warpMode=SUBSPACE
+#: prefs.xml:39
+msgid "Hover time before the tooltip is displayed (in ms)"
+msgstr "Wartezeit, bevor der Tooltip angezeigt wird (in ms)"
 
-# gameMode - Specify the game type.
-#
-# Valid values are:
-#   SANDBOX
-#   SCIENCE
-#   CAREER
-gameMode=SANDBOX
+#: prefs.xml:57
+msgid "Tooltip display animation duration (in ms)"
+msgstr "Tooltip Einblend-Animationsdauer (in ms)"
 
-# gameDifficulty - Specify the gameplay difficulty of the server.
-#
-# Valid values are:
-#   EASY
-#   NORMAL
-#   MODERATE
-#   HARD
-#   CUSTOM
-gameDifficulty=NORMAL
+#: prefs.xml:75
+msgid "Tooltip dismiss animation duration (in ms)"
+msgstr "Tooltip Ausblend-Animationsdauer (in ms)"
 
-# whitelisted - Enable white-listing.
-whitelisted=False
+#: prefs.xml:95
+msgid "<b>When to show Tooltip</b>"
+msgstr "<b>Tooltip Anzeigeoptionen</b>"
 
-# modControl - Enable mod control.
-# # WARNING: Only consider turning off mod control for private servers.
-# # The game will constantly complain about missing parts if there are missing mods.
-#
-# Valid values are:
-#   DISABLED
-#   ENABLED_STOP_INVALID_PART_SYNC
-#   ENABLED_STOP_INVALID_PART_LAUNCH
-modControl=ENABLED_STOP_INVALID_PART_SYNC
+#: prefs.xml:107
+msgid "Show tooltips even if the icon-label is not elipsized"
+msgstr "Tooltips auch dann zeigen, wenn die Beschriftung nicht gekürzt ist"
 
-# keepTickingWhileOffline - Specify if the the server universe 'ticks' while nobody is connected or the server is shut down.
-keepTickingWhileOffline=True
+#: prefs.xml:127
+msgid "<b>Tooltip appearance</b>"
+msgstr "<b>Tooltip-Darstellung</b>"
 
-# sendPlayerToLatestSubspace - If true, sends the player to the latest subspace upon connecting. If false, sends the player to the previous subspace they were in.
-# # NOTE: This may cause time-paradoxes, and will not work across server restarts.
-sendPlayerToLatestSubspace=True
+#: prefs.xml:139
+msgid "Draw borders"
+msgstr "Rahmen anzeigen"
 
-# useUTCTimeInLog - Use UTC instead of system time in the log.
-useUTCTimeInLog=False
+#: prefs.xml:157
+msgid "Display app description in the tooltip"
+msgstr "App-Beschreibung im Tooltip anzeigen"
 
-# logLevel - Minimum log level.
-#
-# Valid values are:
-#   DEBUG
-#   INFO
-#   CHAT
-#   ERROR
-#   FATAL
-logLevel=DEBUG
-
-# screenshotsPerPlayer - Specify maximum number of screenshots to save per player. -1 = None, 0 = Unlimited
-screenshotsPerPlayer=20
-
-# screenshotHeight - Specify vertical resolution of screenshots.
-screenshotHeight=720
-
-# cheats - Enable use of cheats in-game.
-cheats=True
-
-# httpPort - HTTP port for server status. 0 = Disabled
-httpPort=0
-
-# serverName - Name of the server.
-serverName=DMP Server
-
-# maxPlayers - Maximum amount of players that can join the server.
-maxPlayers=20
-
-# screenshotDirectory - Specify a custom screenshot directory.
-# #This directory must exist in order to be used. Leave blank to store it in Universe.
-screenshotDirectory=
-
-# autoNuke - Specify in minutes how often /nukeksc automatically runs. 0 = Disabled
-autoNuke=0
-
-# autoDekessler - Specify in minutes how often /dekessler automatically runs. 0 = Disabled
-autoDekessler=30
-
-# numberOfAsteroids - How many untracked asteroids to spawn into the universe. 0 = Disabled
-numberOfAsteroids=30
-
-# consoleIdentifier - Specify the name that will appear when you send a message using the server's console.
-consoleIdentifier=Server
-
-# serverMotd - Specify the server's MOTD (message of the day).
-serverMotd=Welcome, %name%!
-
-# expireScreenshots - Specify the amount of days a screenshot should be considered as expired and deleted. 0 = Disabled
-expireScreenshots=0
-
-# compressionEnabled - Specify whether to enable compression. Decreases bandwidth usage but increases CPU usage. 0 = Disabled
-compressionEnabled=True
-
-# expireLogs - Specify the amount of days a log file should be considered as expired and deleted. 0 = Disabled
-expireLogs=0
-
-# safetyBubbleDistance - Specify the minimum distance in which vessels can interact with eachother at the launch pad and runway
-safetyBubbleDistance=100
-
+#: prefs.xml:175
+msgid "Show applications count on groups"
+msgstr "Anzahl der Anwendungen in Gruppen anzeigen"
