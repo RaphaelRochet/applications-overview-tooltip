@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-20 13:14+0200\n"
+"PO-Revision-Date: 2021-07-11 18:11+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Language: nl\n"
+
+#: extension.js:216
+#, javascript-format
+msgid "Group of %d application"
+msgid_plural "Group of %d applications"
+msgstr[0] "Groep met %d toepassing"
+msgstr[1] "Groep met %d toepassingen"
+
+#: prefs.xml:37
+msgid "Application title / Group name"
+msgstr "Toepassings-/Groepsnaam"
+
+#: prefs.xml:52 prefs.xml:106 prefs.xml:142
+msgid "Show in tooltip"
+msgstr "Tonen op hulpballon"
+
+#: prefs.xml:70
+msgid "Show even if the icon-label is not elipsized"
+msgstr "Ook tonen als het label niet is afgebroken met een ellips"
+
+#: prefs.xml:91
+msgid "Application description"
+msgstr "Toepassingsomschrijving"
+
+#: prefs.xml:127
+msgid "Application count on groups"
+msgstr "Aantal toepassingen in groepen"
+
+#: prefs.xml:163
+msgid "Tooltip style"
+msgstr "Hulpballonstijl"
+
+#: prefs.xml:178
+msgid "Draw borders"
+msgstr "Kaders tonen"
+
+#: prefs.xml:199
+msgid "Tooltip appearance"
+msgstr "Hulpballonuiterlijk"
+
+#: prefs.xml:216
+msgid "Timings"
+msgstr "Tijdspozen"
+
+#: prefs.xml:231
+msgid "Hover time before the tooltip is displayed (in ms)"
+msgstr "Wachttijd alvorens het tonen van hulpballonnen (in ms)"
+
+#: prefs.xml:251
+msgid "Tooltip display animation duration (in ms)"
+msgstr "Animatieduur bij tonen van hulpballonnen (in ms)"
+
+#: prefs.xml:271
+msgid "Tooltip dismiss animation duration (in ms)"
+msgstr "Animatieduur bij verbergen van hulpballonnen (in ms)"
+
+#: prefs.xml:293
+msgid "Advanced settings"
+msgstr "Geavanceerde voorkeuren"
