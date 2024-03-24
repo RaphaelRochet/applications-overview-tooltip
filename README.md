@@ -17,7 +17,7 @@ To install, simply download as zip and unzip contents in ~/.local/share/gnome-sh
 
 ## Changes
 
-###v20
+###v21
 - Gnome 46
 
 ###v19
