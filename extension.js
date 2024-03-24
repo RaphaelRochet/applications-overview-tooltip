@@ -152,7 +152,7 @@ export default class ApplicationOverviewTooltipExtension extends Extension {
 				this._ttdetail = new St.Label({ style_class: 'app-tooltip-detail', text: detailtext });
 				this._ttlayout.add_child(this._ttlabel);
 				this._ttlayout.add_child(this._ttdetail);
-				this._ttbox.add_actor(this._ttlayout);
+				this._ttbox.add_child(this._ttlayout);
 				// we force text wrap on both labels
 				this._ttlabel.clutter_text.line_wrap = true;
 				this._ttlabel.clutter_text.line_wrap_mode = Pango.WrapMode.WORD;
@@ -161,7 +161,7 @@ export default class ApplicationOverviewTooltipExtension extends Extension {
 				this._ttdetail.clutter_text.line_wrap_mode = Pango.WrapMode.WORD;
 				this._ttdetail.clutter_text.ellipsize = Pango.EllipsizeMode.NONE;
 				// Add as a new child on screen
-				Main.uiGroup.add_actor(this._ttbox);
+				Main.uiGroup.add_child(this._ttbox);
 			} else {
 				this._ttlabel.text = titletext;
 				this._ttdetail.text = detailtext;
@@ -209,7 +209,7 @@ export default class ApplicationOverviewTooltipExtension extends Extension {
 				onComplete: () => {
 					this._ttlabel = null;
 					this._ttdetail = null;
-					Main.uiGroup.remove_actor(this._ttbox);
+					Main.uiGroup.remove_child(this._ttbox);
 					this._ttbox = null;
 				}
 			});
