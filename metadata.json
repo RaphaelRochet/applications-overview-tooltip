@@ -2,7 +2,7 @@
   "description": "Shows a tooltip over applications icons on applications overview with application name and/or description.",
   "name": "Applications Overview Tooltip",
   "shell-version": [
-    "46", "47"
+    "46", "47", "48"
   ],
   "settings-schema": "org.gnome.shell.extensions.applications-overview-tooltip",
   "gettext-domain": "applications-overview-tooltip",
