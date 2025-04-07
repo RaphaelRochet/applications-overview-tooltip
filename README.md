@@ -17,13 +17,13 @@ To install, simply download as zip and unzip contents in ~/.local/share/gnome-sh
 
 ## Changes
 
-###v22
+### v22
 - Gnome 47
 
-###v21
+### v21
 - Gnome 46
 
-###v19
+### v19
 - Changes to comply with EGO Review Guidelines
 
 ### v18
@@ -100,4 +100,5 @@ To install, simply download as zip and unzip contents in ~/.local/share/gnome-sh
 - 2012,2013 Original author Franco Bianconi
 - 2014 Updated and upgraded by Karel Macha
 
+__applications-overview-tooltip is marked with CC0 1.0 Universal. To view a copy of this license, visit https://creativecommons.org/publicdomain/zero/1.0/__
 
