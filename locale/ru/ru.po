@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Fraxinus Acer <>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-20 09:01+0100\n"
+"PO-Revision-Date: 2025-04-07 13:54+0300\n"
+"Last-Translator: Fraxinus Acer <>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 48.0\n"
+
+#, javascript-format
+msgid "Group of %d application"
+msgid_plural "Group of %d applications"
+msgstr[0] "Группа приложения %d"
+msgstr[1] "Группа приложений %d"
+msgstr[2] "Группы приложений %d"
+
+msgid "Show in tooltip"
+msgstr "Показать в подсказке"
+
+msgid "Application title / Group name"
+msgstr "Название приложения / Имя группы"
+
+msgid "Application description"
+msgstr "Описание приложения"
+
+msgid "Application count on groups"
+msgstr "Количество приложений в группах"
+
+msgid "Tooltip style"
+msgstr "Стиль подсказки"
+
+msgid "Draw borders"
+msgstr "Рисовать границы"
+
+msgid "Tooltip appearance"
+msgstr "Возникновение подсказки"
+
+msgid "Accessibilty"
+msgstr "Специальные возможности"
+
+msgid "Enable on keyboard navigation"
+msgstr "Использовать навигацию с клавиатуры"
+
+msgid "Timings"
+msgstr "Таймеры задержки"
+
+msgid "Hover time before the tooltip is displayed (in ms)"
+msgstr "Время от наведения курсора до появления всплывающей подсказки (в мс)"
+
+msgid "Tooltip display animation duration (in ms)"
+msgstr "Длительность анимации появления подсказки (в мс)"
+
+msgid "Tooltip dismiss animation duration (in ms)"
+msgstr "Длительность анимации исчезновения подсказки (в мс)"
+
+msgid "Advanced settings"
+msgstr "Продвинутые настройки"
+
+msgid "About"
+msgstr "О расширении"
