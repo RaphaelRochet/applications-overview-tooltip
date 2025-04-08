@@ -17,13 +17,13 @@ To install, simply download as zip and unzip contents in ~/.local/share/gnome-sh
 
 ## Changes
 
-### v22
+###v22
 - Gnome 47
 
-### v21
+###v21
 - Gnome 46
 
-### v19
+###v19
 - Changes to comply with EGO Review Guidelines
 
 ### v18
