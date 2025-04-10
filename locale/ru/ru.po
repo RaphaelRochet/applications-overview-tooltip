@@ -23,9 +23,9 @@ msgstr ""
 #, javascript-format
 msgid "Group of %d application"
 msgid_plural "Group of %d applications"
-msgstr[0] "Группа приложения %d"
-msgstr[1] "Группа приложений %d"
-msgstr[2] "Группы приложений %d"
+msgstr[0] "Группа %d приложения"
+msgstr[1] "Группа %d приложений"
+msgstr[2] "Группа %d приложений"
 
 msgid "Show in tooltip"
 msgstr "Показать в подсказке"
@@ -40,13 +40,13 @@ msgid "Application count on groups"
 msgstr "Количество приложений в группах"
 
 msgid "Tooltip style"
-msgstr "Стиль подсказки"
+msgstr "Дизайн подсказки"
 
 msgid "Draw borders"
 msgstr "Рисовать границы"
 
 msgid "Tooltip appearance"
-msgstr "Возникновение подсказки"
+msgstr "Стиль подсказки"
 
 msgid "Accessibilty"
 msgstr "Специальные возможности"
@@ -67,7 +67,7 @@ msgid "Tooltip dismiss animation duration (in ms)"
 msgstr "Длительность анимации исчезновения подсказки (в мс)"
 
 msgid "Advanced settings"
-msgstr "Продвинутые настройки"
+msgstr "Доп. настройки"
 
 msgid "About"
 msgstr "О расширении"
