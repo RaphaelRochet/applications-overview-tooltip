@@ -17,6 +17,9 @@ To install, simply download as zip and unzip contents in ~/.local/share/gnome-sh
 
 ## Changes
 
+### v24
+- Gnome 49
+
 ### v23
 - Gnome 48
 - Added Russian translation
