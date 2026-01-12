@@ -1,6 +1,8 @@
 # applications-overview-tooltip
 Gnome shell extension that shows a tooltip under applications icons on applications overview and search results.
 
+Since 2026, this project is now moved to CodeBerg : https://codeberg.org/RaphaelRochet/applications-overview-tooltip
+
 ![Alt text](./screenshot.png "Here is how it looks like")
 
 ## Features

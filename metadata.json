@@ -6,7 +6,7 @@
   ],
   "settings-schema": "org.gnome.shell.extensions.applications-overview-tooltip",
   "gettext-domain": "applications-overview-tooltip",
-  "url": "https://github.com/RaphaelRochet/applications-overview-tooltip",
+  "url": "https://codeberg.org/RaphaelRochet/applications-overview-tooltip",
   "uuid": "applications-overview-tooltip@RaphaelRochet",
   "version": 24
 }
